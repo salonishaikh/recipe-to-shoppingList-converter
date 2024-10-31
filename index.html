@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Recipe to Shopping List Converter</h1>
+
+    <div id="container"> 
+        <h2>Add Recipe Ingredients</h2>
+        <input type="text" id="recipe-input" placeholder="Enter ingredients separated by commas">
+        <button id="add-recipe">Add Recipe</button>
+
+        <h2>Add Pantry Items</h2>
+        <input type="text" id="pantry-input" placeholder="Enter pantry items separated by commas">
+        <button id="add-pantry">Add Pantry</button>
+
+        <div class="container2"> 
+            <h2 class="heading">Shopping List</h2>
+            <button id="generate-list">Generate Shopping List</button> <!-- ID here -->
+            <ul id="shopping-list"></ul>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

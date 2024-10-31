@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 110vh;
+    background-image: url('https://img.freepik.com/premium-photo/minimalist-design-with-quote-about-cooking-wallpaper-ar-169-job-id-0afffab53ebb425497aa83e5dee178ea_1134901-233777.jpg?semt=ais_hybrid');
+    animation: fadeIn 1.5s ease-in-out;
+    font-family: Arial, sans-serif;
+}
+
+#container {
+    margin-left: 400px;
+    margin-top: 80px;
+    animation: fadeInUp 1s ease forwards;
+}
+
+h1 {
+    text-align: center;
+    color: #333333; /* Dark gray for a professional look */
+    font-size: 2.5em;
+    font-weight: 600;
+    margin-bottom: 20px;
+    animation: fadeIn 1.5s ease forwards;
+}
+
+h2 {
+    margin-left: 80px;
+    color: #555555; /* Medium gray for a clean, subtle look */
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+input {
+    width: 300px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 8px;
+    border: 1px solid #CCCCCC; /* Light gray border for subtle elegance */
+    background-color: #F7F7F7; /* Soft white-gray for inputs */
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+input:focus {
+    background-color: #FFFFFF; /* Pure white on focus */
+    box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+button {
+    padding: 10px;
+    background-color:  #369069; /* Green for action buttons */
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #55946f; /* Slightly darker green on hover */
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(1.02);
+}
+
+.container2 {
+    text-align: center;
+    animation: fadeInUp 1s ease forwards;
+}
+
+.heading {
+    margin-right: 600px;
+}
+
+#generate-list {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #369069; /* Consistent green for the main action button */
+    color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-right: 500px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#generate-list:hover {
+    background-color: #4ba774; /* Darker green on hover */
+    transform: scale(1.05);
+}
+
+#shopping-list {
+    margin-top: 10px; /* Space above the list */
+    padding: 10px; /* Padding inside the list */
+    border: 1px solid #ccc; /* Light border around the list */
+    border-radius: 5px; /* Rounded corners */
+    background-color: #f1f1f1; /* Light background color for the list */
+    width:80px;
+    margin-left: 130px;
+}
+
+#shopping-list li {
+    list-style-type: none; /* Remove bullet points */
+    padding: 5px 0; /* Padding above and below list items */
+    border-bottom: 1px solid #eee; /* Light bottom border for each item */
+}
+
+#shopping-list li:last-child {
+    border-bottom: none; /* Remove bottom border for the last item */
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+@keyframes fadeInUp {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
